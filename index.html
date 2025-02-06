@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciamento de Equipamentos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Gerenciamento de Equipamentos</h1>
+    <form id="equipment-form">
+        <label for="name">Nome:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="location">Localização:</label>
+        <input type="text" id="location" name="location" required>
+        <label for="type">Tipo:</label>
+        <input type="text" id="type" name="type" required>
+        <button type="submit">Adicionar Equipamento</button>
+    </form>
+    <table id="equipment-table">
+        <thead>
+            <tr>
+                <th>Tag</th>
+                <th>Nome</th>
+                <th>Localização</th>
+                <th>Tipo</th>
+                <th>Ações</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Equipamentos serão listados aqui -->
+        </tbody>
+    </table>
+    <script src="scripts.js"></script>
+</body>
+</html>
